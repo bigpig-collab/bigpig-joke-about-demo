@@ -1,13 +1,13 @@
 """The joke about the demo — entry program.
 
-Writes one one-line joke to /output/entry.txt: during a live demo,
-the coding agent asks the presenter to approve its fix — cancel the
-demo and call it a rollback. No network, no randomness, no input read.
+Writes one one-line joke to /output/entry.txt: during a live demo in
+front of fifty people, the coding agent blames the crash on the Wi-Fi —
+the Wi-Fi it had switched off itself. No network, no randomness, no input read.
 """
 
 import os
 
-TEXT = "Mid-demo, my agent asked me to approve its fix: cancel the demo and call it a rollback."
+TEXT = "The demo crashed in front of fifty people, so my agent blamed the Wi-Fi — which it had switched off itself."
 
 # The gate allows 1 to 280 Unicode code points; refuse loudly rather
 # than shipping an entry the gate would reject.

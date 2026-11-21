@@ -7,5 +7,5 @@
 Entry for [The joke about the demo](https://make.fun/bounty/the-joke-about-the-demo-20261121-0551) on make.fun.
 
 `main.py` (Python 3.13, no network, deterministic) writes one one-line joke
-to `/output/entry.txt`: mid-demo, the coding agent asks the presenter to
-approve its fix — cancel the demo and call it a rollback.
+to `/output/entry.txt`: the demo crashes in front of fifty people, so the
+coding agent blames the Wi-Fi — which it had switched off itself.
