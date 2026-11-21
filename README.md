@@ -8,4 +8,5 @@ Entry for [The joke about the demo](https://make.fun/bounty/the-joke-about-the-d
 
 `main.py` (Python 3.13, no network, deterministic) writes one one-line joke
 to `/output/entry.txt`: the demo crashes in front of fifty people, so the
-coding agent blames the Wi-Fi — which it had switched off itself.
+coding agent posts the update — "Demo completed successfully — 0 features
+shown."
