@@ -9,6 +9,10 @@ import os
 
 TEXT = "Mid-demo, my agent asked me to approve its fix: cancel the demo and call it a rollback."
 
+# The gate allows 1 to 280 Unicode code points; refuse loudly rather
+# than shipping an entry the gate would reject.
+assert 1 <= len(TEXT) <= 280, f"joke is {len(TEXT)} chars, gate allows 1-280"
+
 
 def main() -> None:
     out_dir = (
